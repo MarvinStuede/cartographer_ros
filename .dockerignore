@@ -2,3 +2,4 @@
 **/.dockerignore
 **/.git
 **/.travis.yml
+**/CATKIN_IGNORE
