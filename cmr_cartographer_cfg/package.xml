@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <name>cmr_cartographer_cfg</name>
+  <description>Configuration for cartographer node</description>
+  <maintainer email="Marvin.Stuede@imes.uni-hannover.de">Marvin Stüde</maintainer>
+  <license>TODO</license>
+   <version>0.0.0</version>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

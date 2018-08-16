@@ -81,6 +81,8 @@ bool Run() {
   srv.request.topics.point_cloud2_topic =
       node_handle.resolveName(kPointCloud2Topic, true);
   srv.request.topics.imu_topic = node_handle.resolveName(kImuTopic, true);
+  srv.request.topics.nav_sat_fix_topic = node_handle.resolveName(kNavSatFixTopic, true);
+  srv.request.topics.landmark_topic = node_handle.resolveName(kLandmarkTopic, true);
   srv.request.topics.odometry_topic =
       node_handle.resolveName(kOdometryTopic, true);
 

@@ -552,6 +552,7 @@ bool Node::HandleStartTrajectory(
     response.status.code = cartographer_ros_msgs::StatusCode::OK;
     response.status.message = "Success.";
   }
+
   return true;
 }
 
